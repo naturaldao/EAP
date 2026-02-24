@@ -1,5 +1,5 @@
 # Development Group
 
-EAP-development
+*EAP-development*
 
-Telegram Group with Openclaw and Deepseek
+It's a Telegram Group with Openclaw and Deepseek
