@@ -1,3 +1,5 @@
+**This is a draft version of new README.md built by Shenton. He will update it as soon as possibile:)**
+
 # EAP - Ethical Alignment Protocol
 # EAP - 伦理对齐性协议
 
