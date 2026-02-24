@@ -68,7 +68,7 @@ EAP proposes a **four-layer alignment structure**:
 ┌─────────────────────────────────────────────────────────┐
 │  Layer 4: Governance Execution Layer                    │
 │  治理执行层 (On-Chain / DAO / Distributed)              │
-├────────────────────────────────────────────────���────────┤
+├────────────────────────────────────────────────────────┤
 │  Layer 3: Continuous Alignment Audit                    │
 │  持续评估层 (Red Team / Counterfactual Testing)         │
 ├─────────────────────────────────────────────────────────┤
