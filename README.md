@@ -11,4 +11,5 @@
 - 分析 Openclaw 的功能结构。
 - 去中心化存储技术的调研。
 - 记忆功能（包括记忆库，即知识库）的开发探讨。
+- EIP-8141的应用探索
 - 开发工具：Openclaw + Codex/MiniMax/Deepseek
