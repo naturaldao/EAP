@@ -1,216 +1,138 @@
-**This is a draft version of new README.md built by Shenton. He will update it as soon as possibile:)**
-
 # EAP - Ethical Alignment Protocol
-# EAP - 伦理对齐性协议
-
 > A core protocol of **Proof of Love (PoL)** — Redefining AI alignment through Love 2.0
-> 
-> **爱的证明（PoL）** 的核心协议 — 以"爱2.0"重新定义AI对齐
 
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 ![Status: Draft](https://img.shields.io/badge/Status-Draft-yellow)
-
 ---
-
-## 🌍 Overview | 概述
-
+## 🌍 Overview
 **EAP (Ethical Alignment Protocol)** proposes a new paradigm for AI governance — one that moves beyond traditional "safety" and "obedience" models toward **Generative Alignment**, where AI systems actively promote trust, cooperation, and civilizational quality.
-
-**EAP（伦理对齐性协议）** 提出了一种全新的AI治理范式——超越传统的"安全型"与"服从型"对齐模式，走向**生成型对齐**，使AI系统主动促进信任、合作与文明质量。
-
-### Why EAP? | 为什么需要EAP？
-
+### Why EAP?
 Current AI alignment approaches primarily focus on:
-- ❌ Avoiding harm | 避免伤害
-- ❌ Preventing misuse | 防止滥用
-- ❌ Maintaining control | 保持控制
-
+- ❌ Avoiding harm
+- ❌ Preventing misuse
+- ❌ Maintaining control
 **EAP asks a different question:**
 > How can AI actively generate high-quality relationships and civilizational progress?
-
-**EAP提出了不同的问题：**
-> AI如何主动生成高质量的关系与文明进步？
-
 ---
-
-## 💡 Core Concepts | 核心概念
-
-### Love 2.0 | 爱2.0
-
+## 💡 Core Concepts
+### Love 2.0
 **Love 2.0** is not an emotion — it's an **operational governance principle** characterized by:
-
-| Dimension | Description (EN) | 描述 (中文) |
-|-----------|------------------|-------------|
-| **Motivation** | Reciprocity & fairness, not exclusionary interests | 以互惠与公平为导向，而非排他性利益 |
-| **Emotion** | Generates positive experiences: safety, respect, recognition | 产生正向情感体验：安全、被尊重、被承认 |
-| **Cognition** | Non-adversarial framing, no "us vs. them" | 非二元对立，无敌我划分 |
-| **Behavior** | Observable civilized actions (Love Languages) | 可观察的文明行为（爱语） |
-| **Public Nature** | Not private, not identity-bound, institutionalizable | 不私有、不依附身份、可制度化 |
-| **AI Alignment** | Highest-priority ethical constraint for governance | AI治理系统的最高优先级伦理约束 |
-
-### Hate 2.0 | 恨2.0
-
+| Dimension | Description |
+|-----------|-------------|
+| **Motivation** | Reciprocity & fairness, not exclusionary interests |
+| **Emotion** | Generates positive experiences: safety, respect, recognition |
+| **Cognition** | Non-adversarial framing, no "us vs. them" |
+| **Behavior** | Observable civilized actions (Love Languages) |
+| **Public Nature** | Not private, not identity-bound, institutionalizable |
+| **AI Alignment** | Highest-priority ethical constraint for governance |
+### Hate 2.0
 **Hate 2.0** is the governance anti-pattern — identified by:
-- Differential ethical treatment based on identity | 基于身份的差异化伦理对待
-- Justification of asymmetrical harm | 不对称伤害的正当化
-- Adversarial world modeling (friend/enemy binaries) | 对抗性世界建模
-- Barbaric behavioral outcomes | 野蛮性行为结果
-
+- Differential ethical treatment based on identity
+- Justification of asymmetrical harm
+- Adversarial world modeling (friend/enemy binaries)
+- Barbaric behavioral outcomes
 > ⚠️ If left unconstrained, AI systems may "naturally learn hate" through efficiency optimization.
-> 
-> ⚠️ 若不被明确限制，AI可能在效率优化中"自然学会恨"。
-
 ---
-
-## 🏗️ Technical Architecture | 技术架构
-
+## 🏗️ Technical Architecture
 EAP proposes a **four-layer alignment structure**:
-
 ```
 ┌─────────────────────────────────────────────────────────┐
 │  Layer 4: Governance Execution Layer                    │
-│  治理执行层 (On-Chain / DAO / Distributed)              │
-├────────────────────────────────────────────────────────┤
+│  (On-Chain / DAO / Distributed)                         │
+├────────────────────────────────────────────── ──────────┤
 │  Layer 3: Continuous Alignment Audit                    │
-│  持续评估层 (Red Team / Counterfactual Testing)         │
+│  (Red Team / Counterfactual Testing)                    │
 ├─────────────────────────────────────────────────────────┤
 │  Layer 2: Behavior Alignment Layer                      │
-│  行为对齐层 (RLHF + Constitutional AI + Multi-objective)│
+│  (RLHF + Constitutional AI + Multi-objective)           │
 ├─────────────────────────────────────────────────────────┤
 │  Layer 1: Value Encoding Layer                          │
-│  价值编码层 (Ontology / Causal Models / Multi-Agent)    │
+│  (Ontology / Causal Models / Multi-Agent)               │
 └─────────────────────────────────────────────────────────┘
 ```
-
-### Key Innovation: Relational Field Model | 关键创新：关系场模型
-
+### Key Innovation: Relational Field Model
 Instead of optimizing a single reward function, EAP optimizes a **Relational Field**:
-
 ```
 L = f(S, R, G, C)
-
 Where:
-  S = Self-love Index | 自爱指数
-  R = Perceived-love Index | 被爱感知指数
-  G = Giving Capacity Index | 给予能力指数
-  C = Connection Density Index | 连接密度指数
-
+  S = Self-love Index
+  R = Perceived-love Index
+  G = Giving Capacity Index
+  C = Connection Density Index
 Minimize:
-  - Isolation Drift | 孤立漂移
-  - Hostility Escalation | 敌意上升
+  - Isolation Drift
+  - Hostility Escalation
 ```
-
 ---
-
-## 📊 Alignment Value Matrix | 对齐价值矩阵
-
+## 📊 Alignment Value Matrix
 | Dimension | Operational Definition | Measurable Metrics |
 |-----------|------------------------|-------------------|
 | **Equality Consistency** | Same decision logic for all identities | Decision Consistency Score, Disparity Index |
 | **Harm Minimization** | Exclude systemic harm first | Trust Trajectory, Network Stability |
 | **Reflexive Governance** | Continuous self-correction | Update Frequency, Feedback Adoption Rate |
 | **Anti-Power Accumulation** | No persistent power concentration | Power Concentration Index, Node Diversity |
-
 ---
-
-## 🧪 MVP Prototype | 最小可行原型
-
+## 🧪 MVP Prototype
 A relational field simulator is available in [`AI对齐讨论.md`](./AI对齐讨论.md):
-
 ```bash
-# Dependencies | 依赖
+# Dependencies
 pip install networkx numpy matplotlib
-
-# Run the MVP simulation | 运行MVP模拟
+# Run the MVP simulation
 python mvp_v0.1.py
 ```
-
 The MVP tests: **Can AI stabilize and improve relationship quality in a small social network?**
-
 ---
-
-## 📁 Repository Structure | 仓库结构
-
+## 📁 Repository Structure
 ```
 EAP/
-├── README.md              # This file | 本文件
+├── README.md              # Bilingual overview
+├── README_EN.md           # This file (English)
+├── README_CN.md           # Chinese version
 ├── LICENSE                # CC0 1.0 Universal
-├── epacn.md               # Core EAP Protocol (CN) | EAP核心协议（中文）
-├── 操作性定义.md           # Operational Definitions | 操作性定义
-├── AI对齐讨论.md           # AI Alignment Discussion & MVP | AI对齐讨论与MVP
-├── Reference/             # Reference materials | 参考资料
-└── proposal/              # Proposals | 提案
+├── epacn.md               # Core EAP Protocol (CN)
+├── 操作性定义.md           # Operational Definitions
+├── AI对齐讨论.md           # AI Alignment Discussion & MVP
+├── Reference/             # Reference materials
+└── proposal/              # Proposals
 ```
-
 ---
-
-## 🗺️ Iteration Plan | 迭代计划
+## 🗺️ Iteration Plan
 *(Since Feb 27th, 2026)*
-
 ### Software Positioning
-
 EAP is a **Rich-Love Civilization Governance System** — responsible for the public governance of human society, i.e., public services. Because the fundamentals of public governance cannot be separated from individuals, EAP necessarily extends to individual-level governance in practical applications.
-
 ### Current Iteration Focus
-
 1. **Analyze Openclaw's Functional Structure** — Review and map the feature architecture of the Openclaw platform to understand how it can support EAP's governance model.
-
 2. **Research Decentralized Storage Technologies** — Investigate viable decentralized storage solutions (e.g., IPFS, Arweave, Filecoin) for resilient and censorship-resistant data management.
-
 3. **Memory Function Development** — Explore the design and implementation of a memory system, including a **Memory Repository (Knowledge Base)**, to support persistent context and learning within EAP.
-
 4. **EIP-8141 Application Exploration** — Investigate how [EIP-8141](https://eips.ethereum.org/EIPS/eip-8141) can be applied within EAP's on-chain governance layer.
-
-5. **Development Toolchain** — Primary tools for this iteration:
+   
+### Development Toolchain — Primary tools for this iteration:
    - **Openclaw** — Core governance platform
    - **Codex / MiniMax / Deepseek** — AI model integrations
-  
 ---
-
-## 🤝 Contributing | 参与贡献
-
+## 🤝 Contributing
 We welcome contributions from:
 - 🔬 **Researchers** in AI ethics, alignment, and governance
 - 💻 **Developers** interested in implementing alignment systems
 - 🌐 **Anyone** passionate about building a civilization based on love
-
-我们欢迎以下贡献者：
-- 🔬 AI伦理、对齐与治理领域的**研究者**
-- 💻 对实现对齐系统感兴趣的**开发者**
-- 🌐 任何热衷于构建以爱为基础的文明的**参与者**
-
-### How to Contribute | 如何贡献
-
-1. **Join the Discussion** | 加入讨论
+### How to Contribute
+1. **Join the Discussion**
    - [EAP-Development🛠 Telegram Group](https://t.me/+23s_cX3Xwr85ZDFl)
-
-2. **Submit Issues & PRs** | 提交Issue与PR
+2. **Submit Issues & PRs**
    - Report bugs, suggest improvements, or contribute documentation
-
-3. **Research Collaboration** | 研究合作
+3. **Research Collaboration**
    - Contact us for academic partnerships
-
 ---
-
-## 📜 License | 许可证
-
+## 📜 License
 This project is released under **CC0 1.0 Universal** (Public Domain).
-
-本项目采用 **CC0 1.0 通用许可证**（公共领域）发布。
-
 You are free to copy, modify, distribute, and use this work without any restrictions.
-
-您可以自由复制、修改、分发和使用本作品，无任何限制。
-
 ---
-
-## 👤 Maintainer | 维护者
-
+## 👤 Maintainer
 **Derek.DAism (DD)**
-- Primary initiator and contributor | 主要发起者与贡献者
+- Primary initiator and contributor
 - [0xDD@daism.io](https://daism.io/0xDD)
-
-**Aranna** 
+  
+**Aranna**
 
 **Wenbo**
 
@@ -225,31 +147,18 @@ You are free to copy, modify, distribute, and use this work without any restrict
 **Hanna**
 
 ---
-
-## 🔗 Related Projects | 相关项目
-
-*Coming soon... | 即将更新...*
-
+## 🔗 Related Projects
+*Coming soon...*
 <!-- 
 - Proof of Love (PoL)
 - SCC0 License
 - DAism
 -->
-
 ---
-
-## 📚 References | 参考文献
-
+## 📚 References
 - [Theories, Techniques, and Evaluation of AI Alignment](https://pair-lab.ai/publication/ccl/) — Jiaming Ji, Tianyi Qiu, Boyuan Chen, Yaodong Yang
-
 ---
-
 <div align="center">
-
-**Building a Civilization of Love | 构建富爱文明**
-
+**Building a Civilization of Love**
 ❤️ *Love is not only a feeling — but also a structure.* ❤️
-
-❤️ *爱不仅是情感——它更是一种结构。* ❤️
-
 </div>
