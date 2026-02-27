@@ -124,8 +124,10 @@ We welcome contributions from:
    - Contact us for academic partnerships
 ---
 ## 📜 License
+
 This project is released under **CC0 1.0 Universal** (Public Domain).
 You are free to copy, modify, distribute, and use this work without any restrictions.
+
 ---
 ## 👤 Maintainer
 **Derek.DAism (DD)**
@@ -159,6 +161,9 @@ You are free to copy, modify, distribute, and use this work without any restrict
 - [Theories, Techniques, and Evaluation of AI Alignment](https://pair-lab.ai/publication/ccl/) — Jiaming Ji, Tianyi Qiu, Boyuan Chen, Yaodong Yang
 ---
 <div align="center">
+  
 **Building a Civilization of Love**
+
 ❤️ *Love is not only a feeling — but also a structure.* ❤️
+
 </div>
