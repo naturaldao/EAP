@@ -144,6 +144,29 @@ EAP/
 
 ---
 
+## 🗺️ Iteration Plan | 迭代计划
+*(Since Feb 27th, 2026)*
+
+### Software Positioning
+
+EAP is a **Rich-Love Civilization Governance System** — responsible for the public governance of human society, i.e., public services. Because the fundamentals of public governance cannot be separated from individuals, EAP necessarily extends to individual-level governance in practical applications.
+
+### Current Iteration Focus
+
+1. **Analyze Openclaw's Functional Structure** — Review and map the feature architecture of the Openclaw platform to understand how it can support EAP's governance model.
+
+2. **Research Decentralized Storage Technologies** — Investigate viable decentralized storage solutions (e.g., IPFS, Arweave, Filecoin) for resilient and censorship-resistant data management.
+
+3. **Memory Function Development** — Explore the design and implementation of a memory system, including a **Memory Repository (Knowledge Base)**, to support persistent context and learning within EAP.
+
+4. **EIP-8141 Application Exploration** — Investigate how [EIP-8141](https://eips.ethereum.org/EIPS/eip-8141) can be applied within EAP's on-chain governance layer.
+
+5. **Development Toolchain** — Primary tools for this iteration:
+   - **Openclaw** — Core governance platform
+   - **Codex / MiniMax / Deepseek** — AI model integrations
+  
+---
+
 ## 🤝 Contributing | 参与贡献
 
 We welcome contributions from:
@@ -183,9 +206,23 @@ You are free to copy, modify, distribute, and use this work without any restrict
 
 ## 👤 Maintainer | 维护者
 
-**Derek.DAism (DD)** — 周朝晖
+**Derek.DAism (DD)**
 - Primary initiator and contributor | 主要发起者与贡献者
 - [0xDD@daism.io](https://daism.io/0xDD)
+
+**Aranna** 
+
+**Wenbo**
+
+**KK**
+
+**Shenton**
+
+**Queena**
+
+**Emaon**
+
+**Hanna**
 
 ---
 
