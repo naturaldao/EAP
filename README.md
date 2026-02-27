@@ -85,8 +85,7 @@ The MVP tests: **Can AI stabilize and improve relationship quality in a small so
 ## 📁 Repository Structure
 ```
 EAP/
-├── README.md              # Bilingual overview
-├── README_EN.md           # This file (English)
+├── README.md              # This file (English)
 ├── README_CN.md           # Chinese version
 ├── LICENSE                # CC0 1.0 Universal
 ├── epacn.md               # Core EAP Protocol (CN)
