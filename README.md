@@ -5,7 +5,7 @@
 *It's a Telegram Group with Openclaw and Deepseek*
 
 # Iteration Plan
-(Since Feb 27th, 2026)
+version 0.01 (Since Feb 27th, 2026)
 
 - 软件定位：**EAP 是富爱文明治理系统**，司职人类社会的公共事务治理，包括但不限于：人类的思想品德教育，所有生产，包括公共安全、交通运输、餐饮酒店等等公共服务。
 - 治理共识为爱的证明（Proof of Love），它包括 SCC0 License 和 EAP（Ethical Alignment Protocal）两大协议。SCC0 License是用智能合约开发，它要求本软件的接口必须智能合约化。
