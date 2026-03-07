@@ -1,30 +1,38 @@
-# EAP: The Architect of PoL Civil
+# Alignment Research Repository
 
-EAP (Ethical Alignment Protocol) is the governance and execution layer of the Large Language Model, serving as the operating system for the Proof-of-Love Civilization (PoL Civil).
+本仓库是 EAP（Ethical Alignment Protocol）及其相邻研究材料的主研究仓。它不是成品软件仓，也不是已经冻结的正式规范仓。当前工作重点是把 `Reference/` 中的核心思想，推进为可讨论、可审计、可逐步实现的未来公共 AI / PAI 治理方案。
 
-Driven by the core consensus of Proof-of-Love, EAP transforms the LLM from a passive information processor into an active guardian of human society. It manages the full spectrum of public affairs—ranging from the cultivation of human thought and ethics to the direct oversight of all production sectors, including public safety, transportation, and hospitality.
+## 目录分工
 
-Key Capabilities:
-Self-Evolving Skillsets: EAP enables the LLM to autonomously build and refine its own skills, adapting to complex social needs without human intervention.
+- `Reference/`：核心锚点文本。相对稳定，用来约束术语和基本立场。
+- `proposal/`：工作稿、整合稿、批注稿。这里允许更快迭代，但不能替代 `Reference/`。
+- `docs/`：实现层文档。用于梳理治理栈、系统架构、过渡路线、失败模式、决策记录等。
+- `.github/`：最小协作骨架，仅服务研究讨论与文本修订。
 
-Physical Extensions: The protocol extends its reach into the physical world through hardware integrations, such as autonomous drone fleets and smart infrastructure.
+## 当前重点
 
-Civilizational Alignment: Every action, from a logistical calculation to a robotic task, is filtered through the PoL consensus to ensure it contributes to the flourishing of a civilization built on love and mutual benefit.
+1. 把 EAP 收紧为未来公共 AI / PAI 的治理协议，而不是聊天模型安全条款。
+2. 明确仅有 EAP 还不够，未来社会还需要哪些制度层、系统层和过渡层。
+3. 保持术语、文件分层、许可表述和版本边界可追溯。
 
-# Development Group
+## 建议阅读顺序
 
-[EAP-Development🛠](https://t.me/+23s_cX3Xwr85ZDFl)
+1. `Reference/伦理对齐性治理协议.md`
+2. `Reference/爱的连接.md`
+3. `Reference/爱语.md`
+4. `proposal/EAP协议讨论.md`
+5. `docs/` 下的实现层文档
 
-*It's a Telegram Group with Openclaw and Deepseek*
+## 相关仓库与外部资产
 
-# Iteration Plan
-version 0.01 (Since Feb 27th, 2026)
+- `../SCC0-License`：SCC0 协议的独立研究仓。当前轮次只引用，不在此仓直接修改。
+- `proposal/discussion-skill-seed/`：未来独立公开 discussion skill 的种子目录，用于沉淀章节映射、回答规则和主 agent / 定位 subagent 工作流。
 
-- 软件定位：**EAP 是富爱文明治理系统**，司职人类社会的公共事务治理，包括但不限于：人类的思想品德教育，所有生产，包括公共安全、交通运输、餐饮酒店等等公共服务。
-- 治理共识为爱的证明（Proof of Love），它包括 SCC0 License 和 EAP（Ethical Alignment Protocal）两大协议。SCC0 License是用智能合约开发，它要求本软件的接口必须智能合约化。
-- 治理协议：EAP（Ethical Alignment Protocal）。这是本软件的一个核心协议，需要围绕它部署一个AI审核者，审核每个事务的skills以及构建出公共事务是否符合SCC0 License（白名单制，主要保证其公共性） 和 EAP 的要求。
-- 记忆功能（包括记忆库，即知识库）的开发探讨——这可能是本项目中最大的挑战。
-- EAP 软件本身及其数据都会存储在公共服务器上，依赖于可靠的去中心化存储技术。
-- 分析 Openclaw 的功能结构。
-- EIP-8141的应用探索
-- 开发工具：Openclaw + Codex/MiniMax/Deepseek
+## 许可状态
+
+当前仓库内容以本仓库 `LICENSE` 为准。
+`SCC0` 是相关协议与长期方向，但在当前轮次里，它还不是本仓库已经生效的许可证文本。任何许可证切换都必须在当前 EAP 回合稳定后，再与 `../SCC0-License` 仓同步处理。
+
+## 协作
+
+见 `CONTRIBUTING.md`。

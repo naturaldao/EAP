@@ -1,0 +1,4 @@
+interface:
+  display_name: "EAP Discussion"
+  short_description: "Locate the right chapter before answering EAP and PoL questions."
+  default_prompt: "Find the relevant chapter first, read only the minimum necessary material, and separate explicit text, inference, and extension proposals in the answer."
