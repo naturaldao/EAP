@@ -6,8 +6,9 @@
 
 - `Reference/`：核心锚点文本。相对稳定，用来约束术语和基本立场。
 - `proposal/`：工作稿、整合稿、批注稿。这里允许更快迭代，但不能替代 `Reference/`。
-- `docs/`：实现层文档。用于梳理治理栈、系统架构、过渡路线、失败模式、决策记录等。
+- `docs/`：实现层文档。用于梳理治理栈、系统架构、过渡路线、失败模式与术语表。
 - `.github/`：最小协作骨架，仅服务研究讨论与文本修订。
+- `讨论技能/`：独立 discussion skill 的中文种子目录，后续可以单独抽出为项目仓。
 
 ## 当前重点
 
@@ -21,12 +22,16 @@
 2. `Reference/爱的连接.md`
 3. `Reference/爱语.md`
 4. `proposal/EAP协议讨论.md`
-5. `docs/` 下的实现层文档
+5. `docs/术语表.md`
+6. `docs/治理栈.md`
+7. `docs/系统架构.md`
+8. `docs/过渡路线.md`
+9. `docs/失败模式.md`
 
 ## 相关仓库与外部资产
 
 - `../SCC0-License`：SCC0 协议的独立研究仓。当前轮次只引用，不在此仓直接修改。
-- `proposal/discussion-skill-seed/`：未来独立公开 discussion skill 的种子目录，用于沉淀章节映射、回答规则和主 agent / 定位 subagent 工作流。
+- `讨论技能/`：未来独立公开 discussion skill 的种子目录，用于沉淀章节映射、回答规则和主 agent / 定位 subagent 工作流。
 
 ## 许可状态
 
