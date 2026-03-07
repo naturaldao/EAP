@@ -1,41 +1,41 @@
 ---
 name: eap-discussion
-description: Discuss the EAP / PoL research corpus by first locating the relevant chapter, then reading only the minimum necessary material, and then answering with clear separation between explicit text, inference, and extension proposals. Use when questions are about EAP, Reference texts, proposal drafts, future public AI governance, or version differences in this repository.
+description: 先定位相关章节，再读取最小必要材料，用明确区分"文本已有结论""推论""扩展提案"的方式讨论 EAP / PoL 研究语料。适用于 EAP、Reference 文本、proposal 草稿、未来公共 AI 治理和版本差异问题。
 ---
 
-# EAP Discussion Skill
+# EAP 讨论技能
 
-Treat this skill as a reading discipline, not as a style layer.
+把这个技能当成一种阅读纪律，不是文风插件。
 
-## Core Rule
+## 核心规则
 
-Do not answer from memory if the question depends on repository text. Find the chapter first.
+只要问题依赖仓库文本，就不要凭记忆回答。先找章节。
 
-## Workflow
+## 工作流
 
-1. Classify the question: concept, protocol clause, implementation gap, transition path, version diff, or criticism.
-2. Dispatch a locating subagent when available. The subagent only finds files, headings, and the smallest useful evidence package. It does not write the final answer.
-3. Read the minimum set of relevant sections.
-4. Answer in four blocks:
-   - Source-backed reading
-   - Inference from text
-   - Extension proposal
-   - Open uncertainty or missing anchor
-5. If the material is insufficient, say so plainly.
+1. 先判断问题属于哪一类：概念、协议条款、实现缺口、过渡路线、版本差异，还是批判性问题。
+2. 条件允许时，先派一个定位 subagent。它只负责找文件、标题和最小证据包，不负责写最终回答。
+3. 只读取最小必要章节。
+4. 回答时固定分成四块：
+   - 基于文本的判断
+   - 从文本推出的推论
+   - 扩展性提案
+   - 尚未解决或缺少锚点的部分
+5. 材料不够时，直接说不够。
 
-## Source Precedence
+## 材料优先级
 
-1. Current `Reference/`
-2. Current integrated draft `proposal/EAP协议讨论.md`
-3. Current `docs/`
-4. Older letters and review drafts in `proposal/`
+1. 当前 `Reference/`
+2. 当前整合工作稿 `proposal/EAP协议讨论.md`
+3. 当前 `docs/`
+4. `proposal/` 里的其他书信稿、评注稿和历史草稿
 
-If sources conflict, report the conflict. Do not quietly harmonize them.
+材料冲突时，直接报告冲突，不要偷偷调和。
 
-## Hard Rules
+## 硬规则
 
-- Do not quote the integrated draft as if it were the stable anchor text.
-- Do not treat every criticism, refusal, or boundary expression as hate speech.
-- Do not import outside theory unless the user asks for it. If you do, mark it as external.
-- Keep context small. Prefer headings and short extracts over full files.
-- When answering AI-boundary questions, distinguish what PAI may do directly, may assist with, and may not impersonate.
+- 不要把整合工作稿当成稳定锚点去引用。
+- 不要把所有批评、拒绝或边界表达都当成恨语。
+- 除非用户明确要求，否则不要主动引入外部理论；如果引入，要标明是外部补充。
+- 上下文要小，优先给标题和短摘录，不要整篇转抄。
+- 回答 AI 边界问题时，必须区分 PAI 可以直接做什么、可以辅助什么、不得拟态什么。

@@ -1,4 +1,4 @@
 interface:
-  display_name: "EAP Discussion"
-  short_description: "Locate the right chapter before answering EAP and PoL questions."
-  default_prompt: "Find the relevant chapter first, read only the minimum necessary material, and separate explicit text, inference, and extension proposals in the answer."
+  display_name: "EAP 讨论"
+  short_description: "先定位章节，再回答 EAP 与 PoL 相关问题。"
+  default_prompt: "先找到相关章节，只读取最小必要材料，并在回答中明确区分文本已有结论、推论和扩展提案。"
