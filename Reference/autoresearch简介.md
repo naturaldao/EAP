@@ -1,3 +1,23 @@
+# 极简介绍
+
+根据仓库的README和相关信息，这个项目名为“autoresearch”，是由Andrej Karpathy（@karpathy）创建的。它是一个自主研究系统，旨在让AI代理（基于LLM）在单个GPU上自动迭代训练小型语言模型（基于nanochat框架）。 具体来说，代理会反复修改训练代码、运行短时实验（约5分钟一次）、评估结果（如验证bits-per-byte指标，越低越好），并据此优化模型，从而实现“一夜之间”的自动化研究进展，而无需人工干预。项目强调自包含性，只修改一个文件（train.py），固定时间预算，确保在不同硬件上实验可比。
+
+### 主要特点：
+
+- **单GPU优化**：适合个人或小型设置（如NVIDIA H100），无分布式训练需求。
+- **最小依赖**：主要依赖PyTorch和uv包管理器。
+- **指导机制**：人类可以通过编辑program.md文件来引导AI代理的实验方向。
+- **评估标准**：使用val_bpb作为核心指标，实验结果记录在results.tsv中（不提交到Git）。
+- **平台兼容**：主版本针对Linux GPU，但有fork版本支持macOS和Windows。
+
+### 使用步骤（简要）：
+
+1. 安装uv：运行curl -LsSf https://astral.sh/uv/install.sh | sh。
+2. 安装依赖：uv sync。
+3. 准备数据和分词器（一次性）：uv run prepare.py。
+4. 手动测试实验：uv run train.py。
+5. 启动AI代理：用program.md的内容提示一个LLM（如“Hi have a look at program.md and let's kick off a new experiment!”），然后让它自动迭代。
+
 # Autoresearch的简介
 
 https://github.com/karpathy/autoresearch
