@@ -8,10 +8,10 @@
 
 ## 1. 快速结论（怎么选）
 
-- 你想要**“代理自动改代码 → 训练 → 评估 → 迭代”**：优先看 **autoresearch**（目标最对口），再从 **modded-nanogpt**、**nanochat** 借鉴具体训练 trick/跑分方法。
-- 你想要**“从 0 训练到能聊天（WebUI/CLI）”**：优先看 **nanochat**（端到端），再搭配通用评测（如 lm-eval-harness）做多任务对比。
-- 你想要**“极简到能读懂每一行训练代码”**：优先看 **llm.c**（更底层/更少依赖），再把理解迁移回 PyTorch 生态。
-- 你想要**“把单一指标（val_bpb）扩展到更多基准任务”**：引入 **lm-evaluation-harness** 做外置评测。
+- 你想要**代理自动改代码 → 训练 → 评估 → 迭代**：优先看 **autoresearch**（目标最对口），再从 **modded-nanogpt**、**nanochat** 借鉴具体训练 trick/跑分方法。
+- 你想要**从 0 训练到能聊天（WebUI/CLI）**：优先看 **nanochat**（端到端），再搭配通用评测（如 lm-eval-harness）做多任务对比。
+- 你想要**极简到能读懂每一行训练代码**：优先看 **llm.c**（更底层/更少依赖），再把理解迁移回 PyTorch 生态。
+- 你想要**把单一指标（val_bpb）扩展到更多基准任务**：引入 **lm-evaluation-harness** 做外置评测。
 
 ---
 
@@ -35,7 +35,7 @@
 - **定位**：给 AI 代理一个“小而真实”的训练环境，让其在固定短预算内自动做研究迭代。
 - **核心循环**：代理编辑训练代码 → 跑一次短训练 → 用指标评估 → 保留/丢弃 → 重复。
 - **预算/指标**：典型是固定 **5 分钟**墙钟时间预算；关键指标 **val_bpb**（越低越好）。
-- **改动面**：强调可控（通常只允��代理集中改动训练侧的关键文件），便于审查差异。
+- **改动面**：强调可控（通常只允代理集中改动训练侧的关键文件），便于审查差异。
 - **适合谁**：想做“自动化研究组织”、并希望把实验节奏压到很短的人。
 
 ### 3.2 karpathy/nanochat
@@ -67,7 +67,7 @@
 ### 3.5 meta-pytorch/torchtune
 - **Repo**：meta-pytorch/torchtune
 - **定位**：更偏“配方（recipes）”与工程实践，重点在微调/对齐/落地。
-- **核心循环**：通常是“选模型 → �� recipe（LoRA/SFT 等）→ 训练 → 评测”。
+- **核心循环**：通常是“选模型 → recipe（LoRA/SFT 等）→ 训练 → 评测”。
 - **特点**：
   - 对“训练一个 base 模型”不一定最合适，但对“快速把模型调成可用”很合适。
   - 适合把 nanochat/autoresearch 产出的 checkpoint，或外部开源 base 接入做下游。
@@ -126,4 +126,4 @@
 - 失败模式与排查 checklist：
   - OOM（减 batch / gradient accumulation）
   - 吞吐下降（data loader / flash attention / dtype）
-  - 指标震荡（学��率、warmup、梯度裁剪、weight decay）
+  - 指标震荡（warmup、梯度裁剪、weight decay）
